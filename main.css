@@ -1,0 +1,13 @@
+table {
+  width: 100%;
+  text-align: center;
+}
+
+thead th {
+  border-bottom: 1px solid;
+}
+
+th:first-child,
+td:first-child {
+  text-align: left;
+}

@@ -7,5 +7,7 @@
     1;
   const weeks = Math.ceil(days / 7);
 
-  document.getElementById("bobo").innerHTML = `${days} days (${weeks} weeks)`;
+  document.getElementById(
+    "timeline"
+  ).innerHTML = `${days} days (${weeks} weeks)`;
 })();
